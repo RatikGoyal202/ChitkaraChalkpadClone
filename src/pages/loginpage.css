@@ -1,0 +1,124 @@
+.App {
+    text-align: center;
+    /* background-image: url('C:\Users\ratik\OneDrive\Desktop\front page\frontpage\src\components\loginpagebg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  font-family: 'Lato', sans-serif;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .topBox {
+    position: absolute;
+    top: 26px;
+    right: auto;
+    left: 26px;
+    width: 124px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .topBox img{
+    margin-top: 11px;
+    margin-left: 11px;
+    height: 28px;
+    width: 100px;
+  }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  /* .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  } */
+  
+  .App-link {
+    color: #000000;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .appBg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+    width: 105vw;
+    background-image: url('C:\Users\ratik\OneDrive\Desktop\front page\frontpage\src\components\loginpagebg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .login_form{
+    background-color: rgba(255,255,255);
+    box-shadow: 0px 8px 32px 0px rgba(95, 95, 96, 0.33);
+    backdrop-filter: blur(3px);
+    margin-left: 600px;
+    padding: 50px 30px 30px 30px;
+    border-radius: 16px;
+  }
+  .login_form  h4{
+    size-adjust: 300px;
+  }
+  .socialLogin{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 24px ;
+  }
+  .socialLogin a{
+    margin-top: -7px;
+
+  }
+  .socialicon1
+  {
+    cursor: pointer;
+    color: black;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    
+  }
+  .socialicon1:hover
+  {
+    color: rgb(236, 67, 67);
+  }
+  .socialicon2
+  {
+    cursor: pointer;
+    
+  }
+  .socialicon2:hover
+  {
+    color: rgb(69, 196, 246);
+  }
+  .socialicon3
+  {
+    cursor: pointer;
+    
+  }
+  .socialicon3:hover
+  {
+    color: rgb(254, 77, 165);
+  }
+  
